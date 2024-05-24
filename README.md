@@ -14,5 +14,5 @@ https://devvj-1.github.io/Reverse-Shell-Generator/
 
 ## 🔧 Linux  Troubleshooting commands 
 ```
-https://chatgpt.com/share/79dc2c04-9089-4e29-9e43-8f66bc76321e
+https://chatgpt.com/share/74ea2fe2-6b6d-400e-bfee-1a434763a162
 ```
