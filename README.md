@@ -32,6 +32,14 @@ Some how i discovered a cyber security course hands-on cloud labs. so i share it
 (Just randomly discovered links while Google dorking)
 
 ## Splunk labs
+
+""
+
+👏🏻 I really grateful and appreciative to the creator of this course (Sam Boney, Sir) for creating this cloud hands-on labs and other informative content. 💡
+
+In exchange for what we learn from this resource. We should subscribe ❤️ to his YouTube channel (https://www.youtube.com/channel/UCC2OBhIt1sHE4odV05RYP1w)
+
+""
 * all Splunk labs: https://samsclass.info/50/50_S19.shtml#quiz
 
 * Boss of the SOC v1: Threat Hunting with Splunk:
