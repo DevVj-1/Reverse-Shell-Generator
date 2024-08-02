@@ -38,3 +38,13 @@ Some how i discovered a cyber security course hands-on cloud labs. so i share it
   https://samsclass.info/50/proj/botsv1.htm
 * Proj 1x: BOSS OF THE SOC: Finding Attack Servers:
   https://samsclass.info/50/proj/p1xbots.htm
+
+## other labs
+
+* https://attack.samsclass.info/
+
+## CBL
+* https://samsclass.info/129S/proj/CBL.htm
+
+## CNIT
+* https://samsclass.info/129S/proj/p10token.htm
