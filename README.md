@@ -56,3 +56,7 @@ In exchange for what we learn from this resource. We should subscribe ❤️ to 
 
 ## CNIT
 * https://samsclass.info/129S/proj/p10token.htm
+
+## Top 10 Soc analyst hands on labs.
+
+link:https://youtu.be/G5sCK6IU3nU?si=r9Br6pag8HZeiUGK
