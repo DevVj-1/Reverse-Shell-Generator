@@ -60,3 +60,13 @@ In exchange for what we learn from this resource. We should subscribe ❤️ to 
 ## Top 10 Soc analyst hands on labs.
 
 link:https://youtu.be/G5sCK6IU3nU?si=r9Br6pag8HZeiUGK
+
+## Sandbox for Malware forensics !
+
+![any_run4_Forensics](https://github.com/user-attachments/assets/9d7d3729-a16f-4214-8803-6b87a1ff3f1d)
+
+ANY. RUN is a service that allows cybersecurity specialists to detect, analyze, and monitor cybersecurity threats. It is the interactive online malware analysis sandbox, where the user controls the flow of the analysis.
+
+```
+https://app.any.run/
+```
