@@ -47,6 +47,9 @@ In exchange for what we learn from this resource. We should subscribe ❤️ to 
 * Proj 1x: BOSS OF THE SOC: Finding Attack Servers:
   https://samsclass.info/50/proj/p1xbots.htm
 * Random splunk server: http://172.218.49.49:8000/en-US/manager/search/adddatamethods/selectsource?input_mode=0
+
+### Splunk SIEM Crash Course | Free Spunk Training for Security Analyst:
+* https://youtu.be/LbR5cqqaFVk?si=DzuR70M_1Ld6Jx6g
   
 ## other labs
 
