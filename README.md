@@ -72,5 +72,9 @@ link:https://youtu.be/G5sCK6IU3nU?si=r9Br6pag8HZeiUGK
 ANY. RUN is a service that allows cybersecurity specialists to detect, analyze, and monitor cybersecurity threats. It is the interactive online malware analysis sandbox, where the user controls the flow of the analysis.
 
 ```
-https://app.any.run/
+[*] https://app.any.run/
 ```
+
+## SOC Master Class: A Beginner’s Guide to Building a Career in Cybersecurity
+
+https://youtu.be/9dlDcyg0d6U?si=fiGHRGHhmtu-29TJ
