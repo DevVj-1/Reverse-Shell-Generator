@@ -16,6 +16,9 @@ https://devvj-1.github.io/Reverse-Shell-Generator/
 ```
 https://chatgpt.com/share/74ea2fe2-6b6d-400e-bfee-1a434763a162
 ```
+```
+fsck /dev/sdX
+```
 
 ## Python payload 
 ```
